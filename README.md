@@ -1,13 +1,14 @@
 gyroprec
 ========
 
-Gyroscope precession demo
-Dependencies: 
-libqt
-opengl
+##Gyroscope precession demo##  
+Dependencies:  
+libqt  
+opengl  
 
-To compile:
-mkdir build
-cmake ..
-make
-./simseg
+To compile:  
+mkdir build  
+cd build  
+cmake ..  
+make  
+./simseg  
