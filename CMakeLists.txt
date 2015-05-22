@@ -25,5 +25,5 @@ QT4_WRAP_CPP(out_HEADERS_MOC ${out_HEADERS})
 ADD_DEFINITIONS(${QT_DEFINITIONS})
 
 add_executable(${outputname} ${out_SOURCES} ${out_HEADERS_MOC})
-target_link_libraries(${outputname} ${QT_LIBRARIES} -lglut -lGLU)
+target_link_libraries(${outputname} ${QT_LIBRARIES} -lglut -lGLU -lGL)
 
